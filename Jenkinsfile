@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-               git https://github.com/Abhishekkumbar1047/dockerweb.git
+               git https://github.com/Abrar-Khaleel/DockerWeb.git
 Changes eff3530 ⟷ 2a44702 | '
         }
         stage('Build Docker Image') {
