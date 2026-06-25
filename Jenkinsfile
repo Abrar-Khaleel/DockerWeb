@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                git https://github.com/Abrar-Khaleel/DockerWeb.git
-Changes eff3530 ⟷ 2a44702 | '
+Changes eff3530 ⟷ 2a44702 | `
         }
         stage('Build Docker Image') {
             steps {
